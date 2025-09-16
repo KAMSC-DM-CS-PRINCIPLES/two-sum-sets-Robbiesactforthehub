@@ -5,7 +5,7 @@ def two_sum_pairs(numbers, target):
             if(target-numbers[n]==numbers[r]):
                 if (n!=r):
                      list.append({numbers[r],numbers[n]})
-                     reversed(list)   
+    reversed(list)   
     return list
 
 
