@@ -4,7 +4,6 @@ def two_sum_pairs(numbers, target):
             if(target-numbers[n]==numbers[r]):
                 if (n!=r):
                     return ((numbers[r],numbers[n]))   
-    
-if __name__ == "__main__":
+
 
 
