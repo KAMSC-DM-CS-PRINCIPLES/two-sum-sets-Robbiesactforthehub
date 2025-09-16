@@ -1,11 +1,11 @@
 def two_sum_pairs(numbers, target):
-    list = []
+    listy = []
     for n in range(0,len(numbers)):
         for r in range(0,n):
             if(target-numbers[n]==numbers[r]):
                 if (n!=r):
-                     list.append({numbers[r],numbers[n]})
-    reversed(list)   
-    return list
+                     listy.append({numbers[r],numbers[n]})
+    listy=listy[::-1] 
+    return listy
 
 
