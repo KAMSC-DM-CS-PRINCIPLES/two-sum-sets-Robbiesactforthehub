@@ -6,6 +6,6 @@ def two_sum_pairs(numbers, target):
                 if (n!=r):
                     if (n>=r):
                         listy.append({numbers[r],numbers[n]})
-return listy
+    return listy
 
 
