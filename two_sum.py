@@ -4,7 +4,7 @@ def two_sum_pairs(numbers, target):
         for r in range(0,len(numbers)):
             if(target-numbers[n]==numbers[r]):
                 if (n!=r):
-                    if (n>=r):
+                    if (n<=r):
                         listy.append({numbers[r],numbers[n]})
     return listy
 
